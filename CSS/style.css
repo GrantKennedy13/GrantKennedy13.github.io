@@ -1,0 +1,47 @@
+/* CSS Document */
+
+#heroLogoContain{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#heroLogo{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+body{
+	background-color: #222222;
+}
+
+.soft{
+    width: 800px;
+    height: 300px;
+    color: #222222;
+    border-radius: 16px;
+	
+    -webkit-box-shadow: -10px -10px 22px #7B7B7B;
+    box-shadow: -10px -10px 22px #7B7B7B;
+	box-shadow: 10px 10px 22px #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main{
+			width: 60%;
+			border: 3px #ff2233 solid;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 40px;
+			margin-bottom: 60px;
+			padding: 10px;
+		}
+
+h3{
+		color: aqua;
+		font-family: 'Pacifico', cursive;
+		font-size: 20px;
+}
