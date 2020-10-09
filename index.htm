@@ -1,33 +1,155 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="CSS/style.css" />
 	<meta name="viewport" content="width=device-with, initial-scale=1.0">
 <meta charset="utf-8">
-<title>Practice 8/27/2020</title>
-	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<title>Grant Kennedy</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	
-	<div id="heroLogoContain">
-		<div id="heroLogo">
-			<img src="Images/FLXMS_SVG_RedGrad.svg" alt="flxms">
+	<div class="contain">
+		<h1>Hello!</h1>
+		<h2>My name is Grant Kennedy</h2>
+		<h3>Check out my websites below!</h3>
+		<div class="linkSection">
+			<!-- Card 1-->
+			<a href="https://grantkennedydesigner.webflow.io">
+			<div class="card">
+				<div class="bg-image">
+					<img src="Images/portfolio.PNG" width="100%" alt="port">
+				</div>
+				<div class="cardBottom">
+				<h4>UX Design Portfolio</h4>
+				<a  class="text" href="https://grantkennedydesigner.webflow.io">grantkennedydesign.com</a>
+				<p>By trade, I am a User Experience Designer and Visual Design. I am currently prusuing a B.S. in Interactive Design at Kennesaw State University. As a UX Designer, I design complex digital systems, both shaping the user’s interaction with the system and designing a satisfying visual interface for the user to use the system through. I also apply my visual design skills to create print and screen graphics that are aesthetically pleasing and serve their intended purpose. In all aspects of design, I focus on the seamless integration of form and function.</p>
+				</div>
+			</div>
+			</a>
+			<!--Card 2-->
+			<a href="https://grantkennedydesigner.webflow.io">
+			<div class="card">
+				<div class="bg-image">
+					<img src="Images/gkcreative.PNG" width="100%" alt="port">
+				</div>
+				<div class="cardBottom">
+					<h4>GK Creative</h4>
+					<a  class="text" href="https://grantkennedydesigner.webflow.io">gkcreativeagency.com</a>
+					<p>GK Creative is a branding and web design agency that specializes in helping creative brands improve their digital presence. Our motto "Impactful DIgital Design for Your Creative Brand" is evident in everything we do.</p>
+				</div>
+			</div>
+			</a>
+			
+		<!--Card 3-->
+			<a href="https://grantkennedydesigner.webflow.io">
+			<div class="card">
+				<div class="bg-image">
+					<img src="Images/flxms.png" width="100%" alt="port">
+				</div>
+				<div class="cardBottom">
+				<h4>FLXMS Music</h4>
+				<a  class="text" href="https://grantkennedydesigner.webflow.io">flxmsmusic.com</a>
+				<p>Creativity is such an integral and important part of my life. I feel no more creative than when I am producing and writing music in my home studio. I create emotional and real tracks featuring my writing, production, vocals, keyboard playing, and ,guitar playing. I create music to free myself from the demons in my own mind and hope that my music can do the same for others. "FLXMS" represents the passionate fire that burns within me that can only be ignited by the spark of making music.</p>
+				</div>
+			</div>
+			</a>
 		</div>
+		<h3 class="footer">My Social Media</h3>
+		<a class="socialLink" href="https://www.instagram.com/grantkennedy13">Instagram</a>
+		<a class="socialLink" href="linkedin.com/grantbkennedy">LinkedIn</a>
+		<a class="socialLink" href=""></a>
 	</div>
-	
-	<div id="box">
-	
-	</div>
-	
-	<div class="soft">
-	</div>
-	
-	<div class="main">
-		<h3>This is some content for now</h3>
-	</div>
-	
 	
 	
 </body>
+	
+<style>
+	body{
+		font-family: 'Roboto', sans-serif;
+		color: #f0f0f0;
+		background-color: #444444;
+		margin: 0px;
+		padding-bottom: 100px;
+	}
+	
+	.contain{
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		/*display: flex;
+		align-content: center;*/
+	}
+	
+	h1{
+		font-size: 72px;
+	}
+	
+	h2{
+		font-size: 48px;
+	}
+	
+	h3{
+		font-size: 32px;
+	}
+	
+	h4{
+		font-size: 24px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		color: #f0f0f0;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+	.card .text{
+		color: lightseagreen;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	p{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	
+	.card{
+	margin-top: 40px;
+    width: 60%;
+	height: auto;
+	border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #444444;
+    box-shadow: 4px 4px 10px 6px rgba(0, 0, 0, 10%), -4px -4px 10px 6px rgba(255, 255, 255, 2%);
+	}
+	
+	.bg-image{
+		width: 100%;
+		height: 260px;
+		overflow: hidden;
+		border-radius: 16px;
+	}
+	
+	.cardBottom{
+		padding: 20px;
+		
+	}
+	
+	.footer{
+		text-align: center;
+		margin-top: 60px;
+	}
+	
+	.socialLink{
+		display: block;
+		color: #f0f0f0;
+		text-decoration: none;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	
+</style>
 </html>
